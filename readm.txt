@@ -1,0 +1,4 @@
+
+  // "logs": " Onde vai gerar e enviar um txt com a log dos ticket",
+  // "categoria": " Categoria onde vai ser aberto os Ticket",   
+  // "suporte": "Cargo de suporte do Discord",  

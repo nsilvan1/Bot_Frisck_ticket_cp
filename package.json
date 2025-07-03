@@ -1,0 +1,40 @@
+{
+  "name": "ticket-bot",
+  "version": "2.0.0",
+  "description": "Sistema de tickets para Discord com MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "migrate": "node scripts/migrate.js",
+    "init-db": "node scripts/init-db.js",
+    "setup": "npm run init-db && npm start",
+    "check": "node check-bot-status.js",
+    "test": "npm run check",
+    "add-default-categories": "node scripts/add-default-categories.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "tickets",
+    "mongodb",
+    "support",
+    "discord.js"
+  ],
+  "author": "Pinguim",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord-html-transcripts": "^3.2.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
