@@ -111,7 +111,7 @@ const guildSchema = new mongoose.Schema({
     },
     readyMessage: {
       type: String,
-      default: 'Sistema de ticket CIDADE ROLEPLAY'
+      default: 'Sistema de ticket Aztlan City!'
     }
   },
   

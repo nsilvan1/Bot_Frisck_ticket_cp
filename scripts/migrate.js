@@ -186,7 +186,7 @@ async function migrateConfigToDatabase() {
               ticketClosed: '🔒 | Ticket fechado por {user}',
               noPermission: '❌ | Você não possui permissão para usar este comando.',
               alreadyHasTicket: '🔔 | Você já tem um ticket aberto!',
-              readyMessage: config.ready || 'Sistema de ticket CIDADE ROLEPLAY'
+              readyMessage: config.ready || 'Sistema de ticket Aztlan City!'
             },
             colors: {
               primary: config.color || '#000000',
